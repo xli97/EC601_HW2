@@ -34,7 +34,7 @@ class FoodTrackerTests: XCTestCase {
     }
     func testMealInitialization() {
         // Success case.
-        let potentialItem = Meal(name: "Newest meal", photo: nil, rating: 5)
+        let potentialItem = Meal(name: "Newest book", photo: nil, rating: 5)
         XCTAssertNotNil(potentialItem)
         
         // Failure cases.
